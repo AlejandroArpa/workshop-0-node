@@ -1,0 +1,16 @@
+#post-list {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+}
+
+.card {
+		min-width: 100px;
+		max-width: 300px;
+		height: 300px;
+		margin: 10px;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 5px;
+		box-shadow: 2px 2px 6px 0 rgba(0,0,0,0.1);
+}
